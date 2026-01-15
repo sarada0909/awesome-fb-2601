@@ -1,4 +1,5 @@
-for i in range(1, 15+1):
+i = 1
+while i <= 15:
     if i % 15 == 0:
         print('fizzbuzz')
     elif i % 3 == 0:
@@ -7,3 +8,4 @@ for i in range(1, 15+1):
         print('buzz')
     else:
         print(i)
+    i += 1
